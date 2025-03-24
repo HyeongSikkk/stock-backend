@@ -1,1 +1,35 @@
+# Python
 venv/
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# 환경 설정
+.env
+.env.*
+
+# 로그
+*.log
+
+# IDE 및 에디터 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 테스트 및 빌드
+.tox/
+.pytest_cache/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 기타
+.DS_Store
+Thumbs.db
+data/
